@@ -1,0 +1,268 @@
+[
+  {
+    "country": "United States",
+    "iso_code": "US",
+    "phone_code": "+1",
+    "states": [
+      {
+        "name": "Alabama",
+        "iso_code": "AL",
+        "cities": [
+          {
+            "name": "Birmingham",
+            "zip_code": "35201",
+            "latitude": 33.5207,
+            "longitude": -86.8025
+          },
+          {
+            "name": "Montgomery",
+            "zip_code": "36101",
+            "latitude": 32.3668,
+            "longitude": -86.3
+          },
+          {
+            "name": "Mobile",
+            "zip_code": "36601",
+            "latitude": 30.6954,
+            "longitude": -88.0399
+          }
+        ]
+      },
+      {
+        "name": "Alaska",
+        "iso_code": "AK",
+        "cities": [
+          {
+            "name": "Anchorage",
+            "zip_code": "99501",
+            "latitude": 61.2181,
+            "longitude": -149.9003
+          },
+          {
+            "name": "Fairbanks",
+            "zip_code": "99701",
+            "latitude": 64.8378,
+            "longitude": -147.7164
+          },
+          {
+            "name": "Juneau",
+            "zip_code": "99801",
+            "latitude": 58.3019,
+            "longitude": -134.4197
+          }
+        ]
+      },
+      {
+        "name": "Arizona",
+        "iso_code": "AZ",
+        "cities": [
+          {
+            "name": "Phoenix",
+            "zip_code": "85001",
+            "latitude": 33.4484,
+            "longitude": -112.074
+          },
+          {
+            "name": "Tucson",
+            "zip_code": "85701",
+            "latitude": 32.2226,
+            "longitude": -110.9747
+          },
+          {
+            "name": "Mesa",
+            "zip_code": "85201",
+            "latitude": 33.4152,
+            "longitude": -111.8315
+          }
+        ]
+      },
+      {
+        "name": "Arkansas",
+        "iso_code": "AR",
+        "cities": [
+          {
+            "name": "Little Rock",
+            "zip_code": "72201",
+            "latitude": 34.7465,
+            "longitude": -92.2896
+          },
+          {
+            "name": "Fort Smith",
+            "zip_code": "72901",
+            "latitude": 35.3859,
+            "longitude": -94.3985
+          },
+          {
+            "name": "Fayetteville",
+            "zip_code": "72701",
+            "latitude": 36.0822,
+            "longitude": -94.1719
+          }
+        ]
+      },
+      {
+        "name": "California",
+        "iso_code": "CA",
+        "cities": [
+          {
+            "name": "Los Angeles",
+            "zip_code": "90001",
+            "latitude": 34.0522,
+            "longitude": -118.2437
+          },
+          {
+            "name": "San Francisco",
+            "zip_code": "94101",
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          },
+          {
+            "name": "San Diego",
+            "zip_code": "92101",
+            "latitude": 32.7157,
+            "longitude": -117.1611
+          }
+        ]
+      },
+      {
+        "name": "Colorado",
+        "iso_code": "CO",
+        "cities": [
+          {
+            "name": "Denver",
+            "zip_code": "80201",
+            "latitude": 39.7392,
+            "longitude": -104.9903
+          },
+          {
+            "name": "Colorado Springs",
+            "zip_code": "80901",
+            "latitude": 38.8339,
+            "longitude": -104.8214
+          },
+          {
+            "name": "Aurora",
+            "zip_code": "80010",
+            "latitude": 39.7294,
+            "longitude": -104.8319
+          }
+        ]
+      },
+      {
+        "name": "Florida",
+        "iso_code": "FL",
+        "cities": [
+          {
+            "name": "Miami",
+            "zip_code": "33101",
+            "latitude": 25.7617,
+            "longitude": -80.1918
+          },
+          {
+            "name": "Orlando",
+            "zip_code": "32801",
+            "latitude": 28.5383,
+            "longitude": -81.3792
+          },
+          {
+            "name": "Tampa",
+            "zip_code": "33601",
+            "latitude": 27.9506,
+            "longitude": -82.4572
+          }
+        ]
+      },
+      {
+        "name": "New York",
+        "iso_code": "NY",
+        "cities": [
+          {
+            "name": "New York City",
+            "zip_code": "10001",
+            "latitude": 40.7128,
+            "longitude": -74.006
+          },
+          {
+            "name": "Buffalo",
+            "zip_code": "14201",
+            "latitude": 42.8864,
+            "longitude": -78.8784
+          },
+          {
+            "name": "Rochester",
+            "zip_code": "14604",
+            "latitude": 43.1566,
+            "longitude": -77.6088
+          }
+        ]
+      },
+      {
+        "name": "Texas",
+        "iso_code": "TX",
+        "cities": [
+          {
+            "name": "Houston",
+            "zip_code": "77001",
+            "latitude": 29.7604,
+            "longitude": -95.3698
+          },
+          {
+            "name": "Dallas",
+            "zip_code": "75201",
+            "latitude": 32.7767,
+            "longitude": -96.797
+          },
+          {
+            "name": "Austin",
+            "zip_code": "73301",
+            "latitude": 30.2672,
+            "longitude": -97.7431
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Canada",
+    "iso_code": "CA",
+    "phone_code": "+1",
+    "states": [
+      {
+        "name": "Ontario",
+        "iso_code": "ON",
+        "cities": [
+          {
+            "name": "Toronto",
+            "zip_code": "M5A",
+            "latitude": 43.65107,
+            "longitude": -79.347015
+          },
+          {
+            "name": "Ottawa",
+            "zip_code": "K1A",
+            "latitude": 45.4215,
+            "longitude": -75.6992
+          }
+        ]
+      },
+      {
+        "name": "Quebec",
+        "iso_code": "QC",
+        "cities": [
+          {
+            "name": "Montreal",
+            "zip_code": "H1A",
+            "latitude": 45.5017,
+            "longitude": -73.5673
+          },
+          {
+            "name": "Quebec City",
+            "zip_code": "G1A",
+            "latitude": 46.8139,
+            "longitude": -71.2082
+          }
+        ]
+      }
+    ]
+  }
+]
