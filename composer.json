@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Tuna976\\CSC\\CSCProvider"
+                "Tuna976\\csc\\CSCProvider"
             ],
             "aliases": {
-                "CustomCalendar": "Tuna976\\CSC\\Facades\\CSC"
+                "CustomCalendar": "Tuna976\\csc\\Facades\\CSC"
             }
         }
     },
@@ -30,5 +30,10 @@
         "guzzlehttp/guzzle": "^7.4"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Tuna976\\CSC\\Tests\\": "tests/"
+        }
+    }
 }
