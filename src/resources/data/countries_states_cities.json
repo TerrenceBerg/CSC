@@ -653,48 +653,5 @@
         ]
       }
     ]
-  },
-  {
-    "country": "Canada",
-    "iso_code": "CA",
-    "phone_code": "+1",
-    "states": [
-      {
-        "name": "Ontario",
-        "iso_code": "ON",
-        "cities": [
-          {
-            "name": "Toronto",
-            "zip_code": "M5A",
-            "latitude": 43.65107,
-            "longitude": -79.347015
-          },
-          {
-            "name": "Ottawa",
-            "zip_code": "K1A",
-            "latitude": 45.4215,
-            "longitude": -75.6992
-          }
-        ]
-      },
-      {
-        "name": "Quebec",
-        "iso_code": "QC",
-        "cities": [
-          {
-            "name": "Montreal",
-            "zip_code": "H1A",
-            "latitude": 45.5017,
-            "longitude": -73.5673
-          },
-          {
-            "name": "Quebec City",
-            "zip_code": "G1A",
-            "latitude": 46.8139,
-            "longitude": -71.2082
-          }
-        ]
-      }
-    ]
   }
 ]
