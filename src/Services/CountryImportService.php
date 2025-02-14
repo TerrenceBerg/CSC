@@ -11,7 +11,7 @@ class CountryImportService
 {
     public function import()
     {
-        $jsonPath = base_path('packages/Tuna976/csc/resources/data/countries_states_cities.json');
+        $jsonPath = base_path('Tuna976/csc/resources/data/countries_states_cities.json');
 
         if (!File::exists($jsonPath)) {
             throw new \Exception("JSON file not found at $jsonPath");
