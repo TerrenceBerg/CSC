@@ -3,7 +3,7 @@
 namespace Tuna976\csc;
 
 use Illuminate\Support\ServiceProvider;
-use Tuna976\CSC\Commands\ImportCountriesCommand;
+use Tuna976\csc\Commands\ImportCountriesCommand;
 
 class CSCProvider extends ServiceProvider
 {
