@@ -18,11 +18,12 @@ class CountryImportService
 
         $countries = json_decode(File::get($jsonPath), true);
 
+
         foreach ($countries as $countryData) {
             $country = Country::updateOrCreate([
                 'iso_code' => $countryData['iso_code'],
             ], [
-                'name' => $countryData['name'],
+                'name' => $countryData['country'],
                 'phone_code' => $countryData['phone_code'],
             ]);
 

@@ -223,7 +223,7 @@
     ]
   },
   {
-    "name": "Canada",
+    "country": "Canada",
     "iso_code": "CA",
     "phone_code": "+1",
     "states": [
