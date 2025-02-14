@@ -1,9 +1,9 @@
 <?php
 
-namespace Tuna976\CSC\Commands;
+namespace Tuna976\csc\Commands;
 
 use Illuminate\Console\Command;
-use Tuna976\CSC\Services\CountryImportService;
+use Tuna976\csc\Services\CountryImportService;
 
 class ImportCountriesCommand extends Command
 {
