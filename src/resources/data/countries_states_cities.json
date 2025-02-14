@@ -19,12 +19,6 @@
             "zip_code": "36101",
             "latitude": 32.3668,
             "longitude": -86.3
-          },
-          {
-            "name": "Mobile",
-            "zip_code": "36601",
-            "latitude": 30.6954,
-            "longitude": -88.0399
           }
         ]
       },
@@ -43,12 +37,6 @@
             "zip_code": "99701",
             "latitude": 64.8378,
             "longitude": -147.7164
-          },
-          {
-            "name": "Juneau",
-            "zip_code": "99801",
-            "latitude": 58.3019,
-            "longitude": -134.4197
           }
         ]
       },
@@ -67,12 +55,6 @@
             "zip_code": "85701",
             "latitude": 32.2226,
             "longitude": -110.9747
-          },
-          {
-            "name": "Mesa",
-            "zip_code": "85201",
-            "latitude": 33.4152,
-            "longitude": -111.8315
           }
         ]
       },
@@ -85,12 +67,6 @@
             "zip_code": "72201",
             "latitude": 34.7465,
             "longitude": -92.2896
-          },
-          {
-            "name": "Fort Smith",
-            "zip_code": "72901",
-            "latitude": 35.3859,
-            "longitude": -94.3985
           },
           {
             "name": "Fayetteville",
@@ -115,12 +91,6 @@
             "zip_code": "94101",
             "latitude": 37.7749,
             "longitude": -122.4194
-          },
-          {
-            "name": "San Diego",
-            "zip_code": "92101",
-            "latitude": 32.7157,
-            "longitude": -117.1611
           }
         ]
       },
@@ -129,22 +99,34 @@
         "iso_code": "CO",
         "cities": [
           {
-            "name": "Denver",
-            "zip_code": "80201",
-            "latitude": 39.7392,
-            "longitude": -104.9903
-          },
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Connecticut",
+        "iso_code": "CT",
+        "cities": [
           {
-            "name": "Colorado Springs",
-            "zip_code": "80901",
-            "latitude": 38.8339,
-            "longitude": -104.8214
-          },
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Delaware",
+        "iso_code": "DE",
+        "cities": [
           {
-            "name": "Aurora",
-            "zip_code": "80010",
-            "latitude": 39.7294,
-            "longitude": -104.8319
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
           }
         ]
       },
@@ -163,12 +145,270 @@
             "zip_code": "32801",
             "latitude": 28.5383,
             "longitude": -81.3792
-          },
+          }
+        ]
+      },
+      {
+        "name": "Georgia",
+        "iso_code": "GA",
+        "cities": [
           {
-            "name": "Tampa",
-            "zip_code": "33601",
-            "latitude": 27.9506,
-            "longitude": -82.4572
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Hawaii",
+        "iso_code": "HI",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Idaho",
+        "iso_code": "ID",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Illinois",
+        "iso_code": "IL",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Indiana",
+        "iso_code": "IN",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Iowa",
+        "iso_code": "IA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Kansas",
+        "iso_code": "KS",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Kentucky",
+        "iso_code": "KY",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Louisiana",
+        "iso_code": "LA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Maine",
+        "iso_code": "ME",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Maryland",
+        "iso_code": "MD",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Massachusetts",
+        "iso_code": "MA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Michigan",
+        "iso_code": "MI",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Minnesota",
+        "iso_code": "MN",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Mississippi",
+        "iso_code": "MS",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Missouri",
+        "iso_code": "MO",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Montana",
+        "iso_code": "MT",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Nebraska",
+        "iso_code": "NE",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Nevada",
+        "iso_code": "NV",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "New Hampshire",
+        "iso_code": "NH",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "New Jersey",
+        "iso_code": "NJ",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "New Mexico",
+        "iso_code": "NM",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
           }
         ]
       },
@@ -187,12 +427,126 @@
             "zip_code": "14201",
             "latitude": 42.8864,
             "longitude": -78.8784
-          },
+          }
+        ]
+      },
+      {
+        "name": "North Carolina",
+        "iso_code": "NC",
+        "cities": [
           {
-            "name": "Rochester",
-            "zip_code": "14604",
-            "latitude": 43.1566,
-            "longitude": -77.6088
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "North Dakota",
+        "iso_code": "ND",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Ohio",
+        "iso_code": "OH",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Oklahoma",
+        "iso_code": "OK",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Oregon",
+        "iso_code": "OR",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Pennsylvania",
+        "iso_code": "PA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Rhode Island",
+        "iso_code": "RI",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "South Carolina",
+        "iso_code": "SC",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "South Dakota",
+        "iso_code": "SD",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Tennessee",
+        "iso_code": "TN",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
           }
         ]
       },
@@ -211,12 +565,90 @@
             "zip_code": "75201",
             "latitude": 32.7767,
             "longitude": -96.797
-          },
+          }
+        ]
+      },
+      {
+        "name": "Utah",
+        "iso_code": "UT",
+        "cities": [
           {
-            "name": "Austin",
-            "zip_code": "73301",
-            "latitude": 30.2672,
-            "longitude": -97.7431
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Vermont",
+        "iso_code": "VT",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Virginia",
+        "iso_code": "VA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Washington",
+        "iso_code": "WA",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "West Virginia",
+        "iso_code": "WV",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Wisconsin",
+        "iso_code": "WI",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
+          }
+        ]
+      },
+      {
+        "name": "Wyoming",
+        "iso_code": "WY",
+        "cities": [
+          {
+            "name": "Capital City",
+            "zip_code": "00000",
+            "latitude": 39.8283,
+            "longitude": -98.5795
           }
         ]
       }
