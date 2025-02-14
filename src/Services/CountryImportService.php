@@ -11,7 +11,7 @@ class CountryImportService
 {
     public function import()
     {
-        $jsonPath = __DIR__ . '/../../resources/data/countries_states_cities.json';
+        $jsonPath = __DIR__ . '/../resources/data/countries_states_cities.json';
         if (!File::exists($jsonPath)) {
             throw new \Exception("JSON file not found at $jsonPath");
         }
