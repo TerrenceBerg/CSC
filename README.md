@@ -16,7 +16,6 @@ A Laravel package for importing **countries, states, and cities** along with the
 ```bash
 composer require 976-tuna/csc
 
-php artisan vendor:publish --provider="Tuna976\csc\CSCProvider" --tag=migrations
 php artisan migrate
 
 php artisan country-importer:import
