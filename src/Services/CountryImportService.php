@@ -1,28 +1,29 @@
 <?php
 
-namespace Tuna976\CSC\Services;
+namespace Tuna976\csc\Services;
 
-use Tuna976\CSC\Models\Country;
-use Tuna976\CSC\Models\State;
-use Tuna976\CSC\Models\City;
+use Illuminate\Support\Facades\File;
+use Tuna976\csc\Models\Country;
+use Tuna976\csc\Models\State;
+use Tuna976\csc\Models\City;
 
 class CountryImportService
 {
     public function import()
     {
-        $jsonPath = base_path('packages/Tuna976/CSC/resources/data/countries_states_cities.json');
-
+        $jsonPath = __DIR__ . '/../resources/data/countries_states_cities.json';
         if (!File::exists($jsonPath)) {
             throw new \Exception("JSON file not found at $jsonPath");
         }
 
         $countries = json_decode(File::get($jsonPath), true);
 
+
         foreach ($countries as $countryData) {
             $country = Country::updateOrCreate([
                 'iso_code' => $countryData['iso_code'],
             ], [
-                'name' => $countryData['name'],
+                'name' => $countryData['country'],
                 'phone_code' => $countryData['phone_code'],
             ]);
 

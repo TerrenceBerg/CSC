@@ -15,3 +15,7 @@ A Laravel package for importing **countries, states, and cities** along with the
 ### 1️⃣ Install the Package (if private, use your package repository)
 ```bash
 composer require 976-tuna/csc
+
+php artisan migrate
+
+php artisan country-importer:import

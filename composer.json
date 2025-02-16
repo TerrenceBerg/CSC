@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tuna976\\CSC\\": "src/"
+            "Tuna976\\csc\\": "src/"
         }
     },
     "authors": [
@@ -33,7 +33,7 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Tuna976\\CSC\\Tests\\": "tests/"
+            "Tuna976\\csc\\Tests\\": "tests/"
         }
     }
 }

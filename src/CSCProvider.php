@@ -3,7 +3,7 @@
 namespace Tuna976\csc;
 
 use Illuminate\Support\ServiceProvider;
-use Tuna976\CSC\Commands\ImportCountriesCommand;
+use Tuna976\csc\Commands\ImportCountriesCommand;
 
 class CSCProvider extends ServiceProvider
 {
@@ -14,7 +14,7 @@ class CSCProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../Database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->commands([ImportCountriesCommand::class]);
     }
 }
