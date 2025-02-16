@@ -1,0 +1,908 @@
+[
+    {
+      "id": 1,
+      "country": "Afghanistan",
+      "phone_code": "+93",
+      "iso_code": "AF"
+    },
+    {
+      "id": 2,
+      "country": "Albania",
+      "phone_code": "+355",
+      "iso_code": "AL"
+    },
+    {
+      "id": 3,
+      "country": "Algeria",
+      "phone_code": "+213",
+      "iso_code": "DZ"
+    },
+    {
+      "id": 4,
+      "country": "Andorra",
+      "phone_code": "+376",
+      "iso_code": "AD"
+    },
+    {
+      "id": 5,
+      "country": "Angola",
+      "phone_code": "+244",
+      "iso_code": "AO"
+    },
+    {
+      "id": 6,
+      "country": "Antigua and Barbuda",
+      "phone_code": "+1-268",
+      "iso_code": "AG"
+    },
+    {
+      "id": 7,
+      "country": "Argentina",
+      "phone_code": "+54",
+      "iso_code": "AR"
+    },
+    {
+      "id": 8,
+      "country": "Armenia",
+      "phone_code": "+374",
+      "iso_code": "AM"
+    },
+    {
+      "id": 9,
+      "country": "Australia",
+      "phone_code": "+61",
+      "iso_code": "AU"
+    },
+    {
+      "id": 10,
+      "country": "Austria",
+      "phone_code": "+43",
+      "iso_code": "AT"
+    },
+    {
+      "id": 11,
+      "country": "Azerbaijan",
+      "phone_code": "+994",
+      "iso_code": "AZ"
+    },
+    {
+      "id": 12,
+      "country": "Bahamas",
+      "phone_code": "+1-242",
+      "iso_code": "BS"
+    },
+    {
+      "id": 13,
+      "country": "Bahrain",
+      "phone_code": "+973",
+      "iso_code": "BH"
+    },
+    {
+      "id": 14,
+      "country": "Bangladesh",
+      "phone_code": "+880",
+      "iso_code": "BD"
+    },
+    {
+      "id": 15,
+      "country": "Barbados",
+      "phone_code": "+1-246",
+      "iso_code": "BB"
+    },
+    {
+      "id": 16,
+      "country": "Belarus",
+      "phone_code": "+375",
+      "iso_code": "BY"
+    },
+    {
+      "id": 17,
+      "country": "Belgium",
+      "phone_code": "+32",
+      "iso_code": "BE"
+    },
+    {
+      "id": 18,
+      "country": "Belize",
+      "phone_code": "+501",
+      "iso_code": "BZ"
+    },
+    {
+      "id": 19,
+      "country": "Benin",
+      "phone_code": "+229",
+      "iso_code": "BJ"
+    },
+    {
+      "id": 20,
+      "country": "Bhutan",
+      "phone_code": "+975",
+      "iso_code": "BT"
+    },
+    {
+      "id": 21,
+      "country": "Bolivia",
+      "phone_code": "+591",
+      "iso_code": "BO"
+    },
+    {
+      "id": 22,
+      "country": "Bosnia and Herzegovina",
+      "phone_code": "+387",
+      "iso_code": "BA"
+    },
+    {
+      "id": 23,
+      "country": "Botswana",
+      "phone_code": "+267",
+      "iso_code": "BW"
+    },
+    {
+      "id": 24,
+      "country": "Brazil",
+      "phone_code": "+55",
+      "iso_code": "BR"
+    },
+    {
+      "id": 25,
+      "country": "Brunei",
+      "phone_code": "+673",
+      "iso_code": "BN"
+    },
+    {
+      "id": 26,
+      "country": "Bulgaria",
+      "phone_code": "+359",
+      "iso_code": "BG"
+    },
+    {
+      "id": 27,
+      "country": "Burkina Faso",
+      "phone_code": "+226",
+      "iso_code": "BF"
+    },
+    {
+      "id": 28,
+      "country": "Burundi",
+      "phone_code": "+257",
+      "iso_code": "BI"
+    },
+    {
+      "id": 29,
+      "country": "Cabo Verde",
+      "phone_code": "+238",
+      "iso_code": "CV"
+    },
+    {
+      "id": 30,
+      "country": "Cambodia",
+      "phone_code": "+855",
+      "iso_code": "KH"
+    },
+    {
+      "id": 31,
+      "country": "Cameroon",
+      "phone_code": "+237",
+      "iso_code": "CM"
+    },
+    {
+      "id": 32,
+      "country": "Canada",
+      "phone_code": "+1",
+      "iso_code": "CA"
+    },
+    {
+      "id": 33,
+      "country": "Central African Republic",
+      "phone_code": "+236",
+      "iso_code": "CF"
+    },
+    {
+      "id": 34,
+      "country": "Chad",
+      "phone_code": "+235",
+      "iso_code": "TD"
+    },
+    {
+      "id": 35,
+      "country": "Chile",
+      "phone_code": "+56",
+      "iso_code": "CL"
+    },
+    {
+      "id": 36,
+      "country": "China",
+      "phone_code": "+86",
+      "iso_code": "CN"
+    },
+    {
+      "id": 37,
+      "country": "Colombia",
+      "phone_code": "+57",
+      "iso_code": "CO"
+    },
+    {
+      "id": 38,
+      "country": "Comoros",
+      "phone_code": "+269",
+      "iso_code": "KM"
+    },
+    {
+      "id": 39,
+      "country": "Congo (Congo-Brazzaville)",
+      "phone_code": "+242",
+      "iso_code": "CG"
+    },
+    {
+      "id": 40,
+      "country": "Congo (Congo-Kinshasa)",
+      "phone_code": "+243",
+      "iso_code": "CD"
+    },
+    {
+      "id": 41,
+      "country": "Costa Rica",
+      "phone_code": "+506",
+      "iso_code": "CR"
+    },
+    {
+      "id": 42,
+      "country": "Croatia",
+      "phone_code": "+385",
+      "iso_code": "HR"
+    },
+    {
+      "id": 43,
+      "country": "Cuba",
+      "phone_code": "+53",
+      "iso_code": "CU"
+    },
+    {
+      "id": 44,
+      "country": "Cyprus",
+      "phone_code": "+357",
+      "iso_code": "CY"
+    },
+    {
+      "id": 45,
+      "country": "Czechia",
+      "phone_code": "+420",
+      "iso_code": "CZ"
+    },
+    {
+      "id": 46,
+      "country": "Denmark",
+      "phone_code": "+45",
+      "iso_code": "DK"
+    },
+    {
+      "id": 47,
+      "country": "Djibouti",
+      "phone_code": "+253",
+      "iso_code": "DJ"
+    },
+    {
+      "id": 48,
+      "country": "Dominica",
+      "phone_code": "+1-767",
+      "iso_code": "DM"
+    },
+    {
+      "id": 49,
+      "country": "Dominican Republic",
+      "phone_code": "+1-809",
+      "iso_code": "DO"
+    },
+    {
+      "id": 50,
+      "country": "Ecuador",
+      "phone_code": "+593",
+      "iso_code": "EC"
+    },
+    {
+      "id": 51,
+      "country": "Egypt",
+      "phone_code": "+20",
+      "iso_code": "EG"
+    },
+    {
+      "id": 52,
+      "country": "El Salvador",
+      "phone_code": "+503",
+      "iso_code": "SV"
+    },
+    {
+      "id": 53,
+      "country": "Equatorial Guinea",
+      "phone_code": "+240",
+      "iso_code": "GQ"
+    },
+    {
+      "id": 54,
+      "country": "Eritrea",
+      "phone_code": "+291",
+      "iso_code": "ER"
+    },
+    {
+      "id": 55,
+      "country": "Estonia",
+      "phone_code": "+372",
+      "iso_code": "EE"
+    },
+    {
+      "id": 56,
+      "country": "Eswatini",
+      "phone_code": "+268",
+      "iso_code": "SZ"
+    },
+    {
+      "id": 57,
+      "country": "Ethiopia",
+      "phone_code": "+251",
+      "iso_code": "ET"
+    },
+    {
+      "id": 58,
+      "country": "Fiji",
+      "phone_code": "+679",
+      "iso_code": "FJ"
+    },
+    {
+      "id": 59,
+      "country": "Finland",
+      "phone_code": "+358",
+      "iso_code": "FI"
+    },
+    {
+      "id": 60,
+      "country": "France",
+      "phone_code": "+33",
+      "iso_code": "FR"
+    },
+    {
+      "id": 61,
+      "country": "Gabon",
+      "phone_code": "+241",
+      "iso_code": "GA"
+    },
+    {
+      "id": 62,
+      "country": "Gambia",
+      "phone_code": "+220",
+      "iso_code": "GM"
+    },
+    {
+      "id": 63,
+      "country": "Georgia",
+      "phone_code": "+995",
+      "iso_code": "GE"
+    },
+    {
+      "id": 64,
+      "country": "Germany",
+      "phone_code": "+49",
+      "iso_code": "DE"
+    },
+    {
+      "id": 65,
+      "country": "Ghana",
+      "phone_code": "+233",
+      "iso_code": "GH"
+    },
+    {
+      "id": 66,
+      "country": "Greece",
+      "phone_code": "+30",
+      "iso_code": "GR"
+    },
+    {
+      "id": 67,
+      "country": "Grenada",
+      "phone_code": "+1-473",
+      "iso_code": "GD"
+    },
+    {
+      "id": 68,
+      "country": "Guatemala",
+      "phone_code": "+502",
+      "iso_code": "GT"
+    },
+    {
+      "id": 69,
+      "country": "Guinea",
+      "phone_code": "+224",
+      "iso_code": "GN"
+    },
+    {
+      "id": 70,
+      "country": "Guinea-Bissau",
+      "phone_code": "+245",
+      "iso_code": "GW"
+    },
+    {
+      "id": 71,
+      "country": "Guyana",
+      "phone_code": "+592",
+      "iso_code": "GY"
+    },
+    {
+      "id": 72,
+      "country": "Haiti",
+      "phone_code": "+509",
+      "iso_code": "HT"
+    },
+    {
+      "id": 73,
+      "country": "Honduras",
+      "phone_code": "+504",
+      "iso_code": "HN"
+    },
+    {
+      "id": 74,
+      "country": "Hungary",
+      "phone_code": "+36",
+      "iso_code": "HU"
+    },
+    {
+      "id": 75,
+      "country": "Iceland",
+      "phone_code": "+354",
+      "iso_code": "IS"
+    },
+    {
+      "id": 76,
+      "country": "India",
+      "phone_code": "+91",
+      "iso_code": "IN"
+    },
+    {
+      "id": 77,
+      "country": "Indonesia",
+      "phone_code": "+62",
+      "iso_code": "ID"
+    },
+    {
+      "id": 78,
+      "country": "Iran",
+      "phone_code": "+98",
+      "iso_code": "IR"
+    },
+    {
+      "id": 79,
+      "country": "Iraq",
+      "phone_code": "+964",
+      "iso_code": "IQ"
+    },
+    {
+      "id": 80,
+      "country": "Ireland",
+      "phone_code": "+353",
+      "iso_code": "IE"
+    },
+    {
+      "id": 81,
+      "country": "Israel",
+      "phone_code": "+972",
+      "iso_code": "IL"
+    },
+    {
+      "id": 82,
+      "country": "Italy",
+      "phone_code": "+39",
+      "iso_code": "IT"
+    },
+    {
+      "id": 83,
+      "country": "Jamaica",
+      "phone_code": "+1-876",
+      "iso_code": "JM"
+    },
+    {
+      "id": 84,
+      "country": "Japan",
+      "phone_code": "+81",
+      "iso_code": "JP"
+    },
+    {
+      "id": 85,
+      "country": "Jordan",
+      "phone_code": "+962",
+      "iso_code": "JO"
+    },
+    {
+      "id": 86,
+      "country": "Kazakhstan",
+      "phone_code": "+7",
+      "iso_code": "KZ"
+    },
+    {
+      "id": 87,
+      "country": "Kenya",
+      "phone_code": "+254",
+      "iso_code": "KE"
+    },
+    {
+      "id": 88,
+      "country": "Kuwait",
+      "phone_code": "+965",
+      "iso_code": "KW"
+    },
+    {
+      "id": 89,
+      "country": "Kyrgyzstan",
+      "phone_code": "+996",
+      "iso_code": "KG"
+    },
+    {
+      "id": 90,
+      "country": "Laos",
+      "phone_code": "+856",
+      "iso_code": "LA"
+    },
+    {
+      "id": 91,
+      "country": "Latvia",
+      "phone_code": "+371",
+      "iso_code": "LV"
+    },
+    {
+      "id": 92,
+      "country": "Lebanon",
+      "phone_code": "+961",
+      "iso_code": "LB"
+    },
+    {
+      "id": 93,
+      "country": "Lesotho",
+      "phone_code": "+266",
+      "iso_code": "LS"
+    },
+    {
+      "id": 94,
+      "country": "Liberia",
+      "phone_code": "+231",
+      "iso_code": "LR"
+    },
+    {
+      "id": 95,
+      "country": "Libya",
+      "phone_code": "+218",
+      "iso_code": "LY"
+    },
+    {
+      "id": 96,
+      "country": "Liechtenstein",
+      "phone_code": "+423",
+      "iso_code": "LI"
+    },
+    {
+      "id": 97,
+      "country": "Lithuania",
+      "phone_code": "+370",
+      "iso_code": "LT"
+    },
+    {
+      "id": 98,
+      "country": "Luxembourg",
+      "phone_code": "+352",
+      "iso_code": "LU"
+    },
+    {
+      "id": 99,
+      "country": "Madagascar",
+      "phone_code": "+261",
+      "iso_code": "MG"
+    },
+    {
+      "id": 100,
+      "country": "Malawi",
+      "phone_code": "+265",
+      "iso_code": "MW"
+    },
+    {
+      "id": 101,
+      "country": "Malaysia",
+      "phone_code": "+60",
+      "iso_code": "MY"
+    },
+    {
+      "id": 102,
+      "country": "Maldives",
+      "phone_code": "+960",
+      "iso_code": "MV"
+    },
+    {
+      "id": 103,
+      "country": "Mali",
+      "phone_code": "+223",
+      "iso_code": "ML"
+    },
+    {
+      "id": 104,
+      "country": "Malta",
+      "phone_code": "+356",
+      "iso_code": "MT"
+    },
+    {
+      "id": 105,
+      "country": "Mexico",
+      "phone_code": "+52",
+      "iso_code": "MX"
+    },
+    {
+      "id": 106,
+      "country": "Moldova",
+      "phone_code": "+373",
+      "iso_code": "MD"
+    },
+    {
+      "id": 107,
+      "country": "Monaco",
+      "phone_code": "+377",
+      "iso_code": "MC"
+    },
+    {
+      "id": 108,
+      "country": "Mongolia",
+      "phone_code": "+976",
+      "iso_code": "MN"
+    },
+    {
+      "id": 109,
+      "country": "Montenegro",
+      "phone_code": "+382",
+      "iso_code": "ME"
+    },
+    {
+      "id": 110,
+      "country": "Morocco",
+      "phone_code": "+212",
+      "iso_code": "MA"
+    },
+    {
+      "id": 111,
+      "country": "Mozambique",
+      "phone_code": "+258",
+      "iso_code": "MZ"
+    },
+    {
+      "id": 112,
+      "country": "Myanmar",
+      "phone_code": "+95",
+      "iso_code": "MM"
+    },
+    {
+      "id": 113,
+      "country": "Namibia",
+      "phone_code": "+264",
+      "iso_code": "NA"
+    },
+    {
+      "id": 114,
+      "country": "Nepal",
+      "phone_code": "+977",
+      "iso_code": "NP"
+    },
+    {
+      "id": 115,
+      "country": "Netherlands",
+      "phone_code": "+31",
+      "iso_code": "NL"
+    },
+    {
+      "id": 116,
+      "country": "New Zealand",
+      "phone_code": "+64",
+      "iso_code": "NZ"
+    },
+    {
+      "id": 117,
+      "country": "Nicaragua",
+      "phone_code": "+505",
+      "iso_code": "NI"
+    },
+    {
+      "id": 118,
+      "country": "Niger",
+      "phone_code": "+227",
+      "iso_code": "NE"
+    },
+    {
+      "id": 119,
+      "country": "Nigeria",
+      "phone_code": "+234",
+      "iso_code": "NG"
+    },
+    {
+      "id": 120,
+      "country": "North Korea",
+      "phone_code": "+850",
+      "iso_code": "KP"
+    },
+    {
+      "id": 121,
+      "country": "North Macedonia",
+      "phone_code": "+389",
+      "iso_code": "MK"
+    },
+    {
+      "id": 122,
+      "country": "Norway",
+      "phone_code": "+47",
+      "iso_code": "NO"
+    },
+    {
+      "id": 123,
+      "country": "Oman",
+      "phone_code": "+968",
+      "iso_code": "OM"
+    },
+    {
+      "id": 124,
+      "country": "Pakistan",
+      "phone_code": "+92",
+      "iso_code": "PK"
+    },
+    {
+      "id": 125,
+      "country": "Palestine",
+      "phone_code": "+970",
+      "iso_code": "PS"
+    },
+    {
+      "id": 126,
+      "country": "Panama",
+      "phone_code": "+507",
+      "iso_code": "PA"
+    },
+    {
+      "id": 127,
+      "country": "Papua New Guinea",
+      "phone_code": "+675",
+      "iso_code": "PG"
+    },
+    {
+      "id": 128,
+      "country": "Paraguay",
+      "phone_code": "+595",
+      "iso_code": "PY"
+    },
+    {
+      "id": 129,
+      "country": "Peru",
+      "phone_code": "+51",
+      "iso_code": "PE"
+    },
+    {
+      "id": 130,
+      "country": "Philippines",
+      "phone_code": "+63",
+      "iso_code": "PH"
+    },
+    {
+      "id": 131,
+      "country": "Poland",
+      "phone_code": "+48",
+      "iso_code": "PL"
+    },
+    {
+      "id": 132,
+      "country": "Portugal",
+      "phone_code": "+351",
+      "iso_code": "PT"
+    },
+    {
+      "id": 133,
+      "country": "Qatar",
+      "phone_code": "+974",
+      "iso_code": "QA"
+    },
+    {
+      "id": 134,
+      "country": "Romania",
+      "phone_code": "+40",
+      "iso_code": "RO"
+    },
+    {
+      "id": 135,
+      "country": "Russia",
+      "phone_code": "+7",
+      "iso_code": "RU"
+    },
+    {
+      "id": 136,
+      "country": "Rwanda",
+      "phone_code": "+250",
+      "iso_code": "RW"
+    },
+    {
+      "id": 137,
+      "country": "Saudi Arabia",
+      "phone_code": "+966",
+      "iso_code": "SA"
+    },
+    {
+      "id": 138,
+      "country": "Senegal",
+      "phone_code": "+221",
+      "iso_code": "SN"
+    },
+    {
+      "id": 139,
+      "country": "Serbia",
+      "phone_code": "+381",
+      "iso_code": "RS"
+    },
+    {
+      "id": 140,
+      "country": "Singapore",
+      "phone_code": "+65",
+      "iso_code": "SG"
+    },
+    {
+      "id": 141,
+      "country": "Slovakia",
+      "phone_code": "+421",
+      "iso_code": "SK"
+    },
+    {
+      "id": 142,
+      "country": "South Africa",
+      "phone_code": "+27",
+      "iso_code": "ZA"
+    },
+    {
+      "id": 143,
+      "country": "Spain",
+      "phone_code": "+34",
+      "iso_code": "ES"
+    },
+    {
+      "id": 144,
+      "country": "Sweden",
+      "phone_code": "+46",
+      "iso_code": "SE"
+    },
+    {
+      "id": 145,
+      "country": "Switzerland",
+      "phone_code": "+41",
+      "iso_code": "CH"
+    },
+    {
+      "id": 146,
+      "country": "Turkey",
+      "phone_code": "+90",
+      "iso_code": "TR"
+    },
+    {
+      "id": 147,
+      "country": "United Kingdom",
+      "phone_code": "+44",
+      "iso_code": "GB"
+    },
+    {
+      "id": 148,
+      "country": "United States",
+      "phone_code": "+1",
+      "iso_code": "US"
+    },
+    {
+      "id": 149,
+      "country": "Vietnam",
+      "phone_code": "+84",
+      "iso_code": "VN"
+    },
+    {
+      "id": 150,
+      "country": "Zambia",
+      "phone_code": "+260",
+      "iso_code": "ZM"
+    },
+    {
+      "id": 151,
+      "country": "Zimbabwe",
+      "phone_code": "+263",
+      "iso_code": "ZW"
+    }
+   ]

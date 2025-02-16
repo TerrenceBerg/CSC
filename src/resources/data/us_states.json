@@ -1,0 +1,262 @@
+[
+    {
+      "id": 1,
+      "state_name": "Alabama",
+      "county_id": 148
+    },
+    {
+      "id": 2,
+      "state_name": "Alaska",
+      "county_id": 148
+    },
+    {
+      "id": 3,
+      "state_name": "Arizona",
+      "county_id": 148
+    },
+    {
+      "id": 4,
+      "state_name": "Arkansas",
+      "county_id": 148
+    },
+    {
+      "id": 5,
+      "state_name": "California",
+      "county_id": 148
+    },
+    {
+      "id": 6,
+      "state_name": "Colorado",
+      "county_id": 148
+    },
+    {
+      "id": 7,
+      "state_name": "Connecticut",
+      "county_id": 148
+    },
+    {
+      "id": 8,
+      "state_name": "Delaware",
+      "county_id": 148
+    },
+    {
+      "id": 9,
+      "state_name": "Florida",
+      "county_id": 148
+    },
+    {
+      "id": 10,
+      "state_name": "Georgia",
+      "county_id": 148
+    },
+    {
+      "id": 11,
+      "state_name": "Hawaii",
+      "county_id": 148
+    },
+    {
+      "id": 12,
+      "state_name": "Idaho",
+      "county_id": 148
+    },
+    {
+      "id": 13,
+      "state_name": "Illinois",
+      "county_id": 148
+    },
+    {
+      "id": 14,
+      "state_name": "Indiana",
+      "county_id": 148
+    },
+    {
+      "id": 15,
+      "state_name": "Iowa",
+      "county_id": 148
+    },
+    {
+      "id": 16,
+      "state_name": "Kansas",
+      "county_id": 148
+    },
+    {
+      "id": 17,
+      "state_name": "Kentucky",
+      "county_id": 148
+    },
+    {
+      "id": 18,
+      "state_name": "Louisiana",
+      "county_id": 148
+    },
+    {
+      "id": 19,
+      "state_name": "Maine",
+      "county_id": 148
+    },
+    {
+      "id": 20,
+      "state_name": "Maryland",
+      "county_id": 148
+    },
+    {
+      "id": 21,
+      "state_name": "Massachusetts",
+      "county_id": 148
+    },
+    {
+      "id": 22,
+      "state_name": "Michigan",
+      "county_id": 148
+    },
+    {
+      "id": 23,
+      "state_name": "Minnesota",
+      "county_id": 148
+    },
+    {
+      "id": 24,
+      "state_name": "Mississippi",
+      "county_id": 148
+    },
+    {
+      "id": 25,
+      "state_name": "Missouri",
+      "county_id": 148
+    },
+    {
+      "id": 26,
+      "state_name": "Montana",
+      "county_id": 148
+    },
+    {
+      "id": 27,
+      "state_name": "Nebraska",
+      "county_id": 148
+    },
+    {
+      "id": 28,
+      "state_name": "Nevada",
+      "county_id": 148
+    },
+    {
+      "id": 29,
+      "state_name": "New Hampshire",
+      "county_id": 148
+    },
+    {
+      "id": 30,
+      "state_name": "New Jersey",
+      "county_id": 148
+    },
+    {
+      "id": 31,
+      "state_name": "New Mexico",
+      "county_id": 148
+    },
+    {
+      "id": 32,
+      "state_name": "New York",
+      "county_id": 148
+    },
+    {
+      "id": 33,
+      "state_name": "North Carolina",
+      "county_id": 148
+    },
+    {
+      "id": 34,
+      "state_name": "North Dakota",
+      "county_id": 148
+    },
+    {
+      "id": 35,
+      "state_name": "Ohio",
+      "county_id": 148
+    },
+    {
+      "id": 36,
+      "state_name": "Oklahoma",
+      "county_id": 148
+    },
+    {
+      "id": 37,
+      "state_name": "Oregon",
+      "county_id": 148
+    },
+    {
+      "id": 38,
+      "state_name": "Pennsylvania",
+      "county_id": 148
+    },
+    {
+      "id": 39,
+      "state_name": "Rhode Island",
+      "county_id": 148
+    },
+    {
+      "id": 40,
+      "state_name": "South Carolina",
+      "county_id": 148
+    },
+    {
+      "id": 41,
+      "state_name": "South Dakota",
+      "county_id": 148
+    },
+    {
+      "id": 42,
+      "state_name": "Tennessee",
+      "county_id": 148
+    },
+    {
+      "id": 43,
+      "state_name": "Texas",
+      "county_id": 148
+    },
+    {
+      "id": 44,
+      "state_name": "Utah",
+      "county_id": 148
+    },
+    {
+      "id": 45,
+      "state_name": "Vermont",
+      "county_id": 148
+    },
+    {
+      "id": 46,
+      "state_name": "Virginia",
+      "county_id": 148
+    },
+    {
+      "id": 47,
+      "state_name": "Washington",
+      "county_id": 148
+    },
+    {
+      "id": 48,
+      "state_name": "West Virginia",
+      "county_id": 148
+    },
+    {
+      "id": 49,
+      "state_name": "Wisconsin",
+      "county_id": 148
+    },
+    {
+      "id": 50,
+      "state_name": "Wyoming",
+      "county_id": 148
+    },
+    {
+      "id": 51,
+      "state_name": "District of Columbia",
+      "county_id": 148
+    },
+    {
+      "id": 52,
+      "state_name": "Puerto Rico",
+      "county_id": 148
+    }
+   ]
