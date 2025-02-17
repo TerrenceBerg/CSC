@@ -11,43 +11,53 @@ class CountryImportService
 {
     public function import()
     {
-        $jsonPath = __DIR__ . '/../resources/data/countries_states_cities.json';
-        if (!File::exists($jsonPath)) {
-            throw new \Exception("JSON file not found at $jsonPath");
+        $countriesPath = __DIR__ . '/../resources/data/countries.json';
+        $statesPath = __DIR__ . '/../resources/data/states.json';
+        $citiesPath = __DIR__ . '/../resources/data/cities.json';
+
+        if (!File::exists($countriesPath) || !File::exists($statesPath) || !File::exists($citiesPath)) {
+            throw new \Exception("One or more JSON files are missing.");
         }
 
-        $countries = json_decode(File::get($jsonPath), true);
+        $countries = json_decode(File::get($countriesPath), true);
+        $states = json_decode(File::get($statesPath), true);
+        $cities = json_decode(File::get($citiesPath), true);
 
-
+        // Insert countries
+        $countryMap = []; // To store country IDs for reference
         foreach ($countries as $countryData) {
-            $country = Country::updateOrCreate([
-                'iso_code' => $countryData['iso_code'],
-            ], [
-                'name' => $countryData['country'],
-                'phone_code' => $countryData['phone_code'],
-            ]);
+            $country = Country::updateOrCreate(
+                ['iso_code' => $countryData['iso_code']],
+                ['name' => $countryData['country'], 'phone_code' => $countryData['phone_code']]
+            );
 
-            foreach ($countryData['states'] as $stateData) {
-                // Insert states
-                $state = State::updateOrCreate([
-                    'name' => $stateData['name'],
-                    'country_id' => $country->id,
-                ], [
-                    'iso_code' => $stateData['iso_code'],
-                ]);
+            $countryMap[$countryData['id']] = $country->id; // Store mapped ID
+        }
 
-                foreach ($stateData['cities'] as $cityData) {
-                    // Insert cities
-                    City::updateOrCreate([
-                        'name' => $cityData['name'],
-                        'state_id' => $state->id,
-                    ], [
-                        'zip_code' => $cityData['zip_code'],
-                        'latitude' => $cityData['latitude'],
-                        'longitude' => $cityData['longitude'],
-                    ]);
-                }
-            }
+        // Insert states
+        $stateMap = []; // To store state IDs for reference
+        foreach ($states as $stateData) {
+            $state = State::updateOrCreate(
+                ['id' => $stateData['id']],
+                [
+                    'name' => $stateData['state_name'],
+                    'country_id' => $countryMap[$stateData['county_id']] ?? null,
+                ]
+            );
+
+            $stateMap[$stateData['id']] = $state->id; // Store mapped ID
+        }
+
+        // Insert cities
+        foreach ($cities as $cityData) {
+            City::updateOrCreate(
+                ['name' => $cityData['city_name'], 'state_id' => $stateMap[$cityData['state_id']] ?? null],
+                [
+                    'zip_code' => $cityData['zip_code'],
+                    'latitude' => $cityData['latitude'],
+                    'longitude' => $cityData['longitude'],
+                ]
+            );
         }
     }
 }
