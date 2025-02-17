@@ -50,11 +50,18 @@ class CountryImportService
 
         foreach ($cities as $cityData) {
             City::updateOrCreate(
-                ['name' => $cityData['city_name'], 'state_id' => $stateMap[$cityData['state_id']] ?? null],
+                [
+                    'city_name' => $cityData['city_name'],
+                    'state_id' => $stateMap[$cityData['state_id']] ?? null
+                ],
                 [
                     'zip_code' => $cityData['zip_code'],
                     'latitude' => $cityData['latitude'],
                     'longitude' => $cityData['longitude'],
+                    'state_name' => $cityData['state_name'],
+                    'state_postal_abbreviation' => $cityData['state_postal_abbreviation'],
+                    'county_name' => $cityData['county_name'],
+                    'county_fips' => $cityData['county_fips'],
                 ]
             );
         }
