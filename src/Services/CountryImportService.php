@@ -62,6 +62,7 @@ class CountryImportService
                     'state_postal_abbreviation' => $cityData['state_postal_abbreviation'],
                     'county_name' => $cityData['county_name'],
                     'county_fips' => $cityData['county_fips'],
+                    'timezone' => $cityData['timezone'],
                 ]
             );
         }
