@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class City extends Model
 {
-    protected $fillable = ['name', 'state_id', 'zip_code'];
-
+protected $guarded=[];
     public function state()
     {
         return $this->belongsTo(State::class);
