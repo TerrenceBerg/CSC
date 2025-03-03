@@ -1,6 +1,6 @@
 <?php
 
-namespace Tuna976\CSC\Models;
+namespace Tuna976\csc\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
