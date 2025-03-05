@@ -1,4 +1,4 @@
-# 976-Tuna Country Importer Package
+# Laravel Country Importer Package
 
 A Laravel package for importing **countries, states, and cities** along with their ZIP codes and geographic coordinates.
 
