@@ -4,5 +4,6 @@
 *.iml
 out
 gen
-
+.DS_Store
+src/.DS_Store
 /vendor/
