@@ -11,9 +11,9 @@ class CountryImportService
 {
     public function import()
     {
-        $countriesPath = __DIR__ . '/../resources/data/countries.json';
-        $statesPath = __DIR__ . '/../resources/data/us_states.json';
-        $citiesPath = __DIR__ . '/../resources/data/us_cities_counties.json';
+        $countriesPath = __DIR__ . '/../resources/data/complete_196_countries.json';
+        $statesPath = __DIR__ . '/../resources/data/us_states_version_2.json';
+        $citiesPath = __DIR__ . '/../resources/data/us_cities_counties_version_2.json';
 
         if (!File::exists($countriesPath) || !File::exists($statesPath) || !File::exists($citiesPath)) {
             throw new \Exception("One or more JSON files are missing.");
